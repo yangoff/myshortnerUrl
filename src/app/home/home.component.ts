@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     this.shortener = '';
     this.linksCollection = db.collection<Link>('links');
     this.links = this.linksCollection.valueChanges();
-    this.domain = "kodo.tk/";
+    this.domain = "localhost:4200/";
   }
 
 
